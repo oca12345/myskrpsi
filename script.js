@@ -71,7 +71,7 @@ $('.partners-slider').owlCarousel({
                         elem.msRequestFullscreen();
                     }
                 }
-//Categories Section Contents Starts
+//Categories Section Contents ends
 
 // Testimonials Section Starts
 $('.testimonials-slider').owlCarousel({
