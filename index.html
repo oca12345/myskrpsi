@@ -565,23 +565,9 @@ Selamat datang di video pembelajarn FLUIDA</h1>
         <!--   === Categories Section Contents Starts ===   -->
         <div class="categories-contents">
           <div class="category-item">
-            <embed type="application/pdf" src="Fisikastatis (1).pdf"></embed>
+            <embed type="application/pdf" src="Fisikastatis (1).pdf" id="pdf1"></embed>
             <br><br>    
-            <button onclick="fullScreen()">Full Screen</button>
-            <script>
-              function fullScreen() {
-                  let elem = document.querySelector('embed');
-                  if (elem.requestFullscreen) {
-                      elem.requestFullscreen();
-                  } else if (elem.mozRequestFullscreen) { /* Firefox */
-                      elem.mozRequestFullscreen();
-                  } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
-                      elem.webkitRequestFullscreen();
-                  } else if (elem.msRequestFullscreen) { /* IE/Edge */
-                      elem.msRequestFullscreen();
-                  }
-              }
-              </script>
+            <button onclick="fullScreen('pdf1')">Full Screen</button>
             
             <div class="category-desc">
               <h3>fluida statis</h3>
@@ -591,27 +577,9 @@ Selamat datang di video pembelajarn FLUIDA</h1>
             </div>
           </div>
           <div class="category-item">
-            <embed type="application/pdf" src="Hukum-hukim fluida statis.pdf"></embed>
+            <embed type="application/pdf" src="Hukum-hukim fluida statis.pdf" id="pdf2"></embed>
             <br><br>    
-            <button onclick="fullScreen()">Full Screen</button>
-          <script>
-              function openFullscreen(element) {
-                  if (element.requestFullscreen) {
-                      element.requestFullscreen();
-                  } else if (element.mozRequestFullScreen) { /* Firefox */
-                      element.mozRequestFullScreen();
-                  } else if (element.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
-                      element.webkitRequestFullscreen();
-                  } else if (element.msRequestFullscreen) { /* IE/Edge */
-                      element.msRequestFullscreen();
-                  }
-              }
-
-              var elem = document.getElementById("Embed");
-              elem.addEventListener("click", function(){
-                  openFullscreen(elem);
-              });
-              </script>
+            <button onclick="fullScreen('pdf2')">Full Screen</button>
   
             <div class="category-desc">
               <h3>fluida statis</h3>
@@ -621,23 +589,10 @@ Selamat datang di video pembelajarn FLUIDA</h1>
             </div>
           </div>
             <div class="category-item">
-              <embed type="application/pdf" src="fluidadinamis (2).pdf"></embed>
+              <embed type="application/pdf" src="fluidadinamis (2).pdf" id="pdf3"></embed>
               <br><br>    
-              <button onclick="fullScreen()">Full Screen</button>
-              <script>
-                function fullScreen() {
-                    let elem = document.querySelector('embed');
-                    if (elem.requestFullscreen) {
-                        elem.requestFullscreen();
-                    } else if (elem.mozRequestFullscreen) { /* Firefox */
-                        elem.mozRequestFullscreen();
-                    } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
-                        elem.webkitRequestFullscreen();
-                    } else if (elem.msRequestFullscreen) { /* IE/Edge */
-                        elem.msRequestFullscreen();
-                    }
-                }
-                </script>
+              <button onclick="fullScreen('pdf3')">Full Screen</button>
+              
               <div class="category-desc">
                <h3>Ringkasan fluida</h3>
               <p>              
@@ -647,23 +602,10 @@ Selamat datang di video pembelajarn FLUIDA</h1>
               </div>
             </div>
             <div class="category-item">
-              <embed type="application/pdf" src="penerapan azas bernouli.pdf"></embed>
+              <embed type="application/pdf" src="penerapan azas bernouli.pdf" id="pdf4"></embed>
               <br><br>    
-              <button onclick="fullScreen()">Full Screen</button>
-              <script>
-                function fullScreen() {
-                    let elem = document.querySelector('embed');
-                    if (elem.requestFullscreen) {
-                        elem.requestFullscreen();
-                    } else if (elem.mozRequestFullscreen) { /* Firefox */
-                        elem.mozRequestFullscreen();
-                    } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
-                        elem.webkitRequestFullscreen();
-                    } else if (elem.msRequestFullscreen) { /* IE/Edge */
-                        elem.msRequestFullscreen();
-                    }
-                }
-                </script>
+              <button onclick="fullScreen('pdf4')">Full Screen</button>
+              
               <div class="category-desc">
                <h3>penerapan hukumbernouli</h3>
               <p>              
