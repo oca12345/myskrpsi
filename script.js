@@ -58,6 +58,25 @@ $('.partners-slider').owlCarousel({
 })
 // Partners Section Ends 
 
+//Categories Section Contents Starts
+  function fullScreen(embedId) {
+    let elem = document.getElementById(embedId);
+    if (elem) { // Ensure the element exists before trying to go full screen
+      if (elem.requestFullscreen) {
+        elem.requestFullscreen();
+      } else if (elem.mozRequestFullScreen) { /* Firefox */
+        elem.mozRequestFullScreen();
+      } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
+        elem.webkitRequestFullscreen();
+      } else if (elem.msRequestFullscreen) { /* IE/Edge */
+        elem.msRequestFullscreen();
+      }
+    } else {
+      console.error('Element with ID ' + embedId + ' not found.');
+    }
+  }
+//Categories Section Contents ends
+
 // Testimonials Section Starts
 $('.testimonials-slider').owlCarousel({
     loop:true,
