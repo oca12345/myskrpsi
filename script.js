@@ -58,21 +58,6 @@ $('.partners-slider').owlCarousel({
 })
 // Partners Section Ends 
 
-//Categories Section Contents Starts
-                function fullScreen() {
-                    let elem = document.querySelector('embed');
-                    if (elem.requestFullscreen) {
-                        elem.requestFullscreen();
-                    } else if (elem.mozRequestFullscreen) { /* Firefox */
-                        elem.mozRequestFullscreen();
-                    } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
-                        elem.webkitRequestFullscreen();
-                    } else if (elem.msRequestFullscreen) { /* IE/Edge */
-                        elem.msRequestFullscreen();
-                    }
-                }
-//Categories Section Contents ends
-
 // Testimonials Section Starts
 $('.testimonials-slider').owlCarousel({
     loop:true,
